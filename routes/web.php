@@ -55,11 +55,13 @@ $tasks = [
     '2023-03-04 12:00:00'
   ),
 ];
+
 Route::get('/tasks', function () use($tasks) {
     return view('index',[
         'tasks'=> $tasks
-    ]);
+    ]);    
 })->name('tasks.index');
+
 Route::get('/tasks/{id}', function($id) use($tasks) {
     $task = collect($tasks)->firstWhere('id',$id);
     if(!$task){
@@ -67,10 +69,12 @@ Route::get('/tasks/{id}', function($id) use($tasks) {
     }
     return view('show', ['task'=> $task]);
 })->name('tasks.show');
+
 Route::get('/', function () {
     return redirect()->route('tasks.index');
     
 });
+
 // Route::get('/hello',function(){
 //     return "Hello World";
 // })->name('helloW');
