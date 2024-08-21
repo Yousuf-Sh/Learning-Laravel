@@ -8,14 +8,15 @@
     }
 </style>
 @endsection
-@section('title','Add Tasks')
+@section('title','Update Tasks')
 
 @section('content') 
-<form method="POST" action="{{route('tasks.store')}}" >
+<form method="POST" action="{{route('tasks.update',['id'=>$task->id])}}" >
     @csrf
+    @method('PUT')
     <div>
         <label for="title">Title</label>
-        <input type="text" name="title" id="text" value="{{old('title')}}">
+        <input type="text" name="title" id="text" value="{{$task->title}}">
         
         @error('title')
         <p class="error-message">{{$message}}</p>            
@@ -24,7 +25,7 @@
 
     <div>
         <label for="title">Description</label>
-        <textarea name="description" id="description]" rows="5">{{old('description')}}</textarea>
+        <textarea name="description" id="description]" rows="5">{{$task->description}}</textarea>
         
         @error('description')
         <p class="error-message">{{$message}}</p>            
@@ -33,7 +34,7 @@
 
     <div>
         <label for="title">Long Description</label>
-        <textarea name="long_description" id="long_description]" rows="10">{{old('long_description')}}</textarea>
+        <textarea name="long_description" id="long_description]" rows="10">{{$task->long_description}}</textarea>
 
         @error('long_description')
         <p class="error-message">{{$message}}</p>            
@@ -41,7 +42,7 @@
     </div>
 
     <div>
-        <button type="submit">ADD +</button>
+        <button type="submit">EDIT</button>
     </div>
 </form>
 
