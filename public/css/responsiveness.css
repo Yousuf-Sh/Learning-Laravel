@@ -1,0 +1,285 @@
+@media only screen and (max-width: 575px) {
+    
+    .headerlink-btn{
+        display: none !important;
+    }
+    .header-upper ul.contact-info li
+    {
+    position: relative;
+    padding-left: 28px;
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+    margin: 10px 0;
+    margin-right: 19px 
+    }
+    .header-upper ul.contact-info li i {
+        position: absolute;
+        top: 2px;
+        left: 0;
+        font-size: 19px;
+    }
+    .main-slider h2 {
+        position: relative;
+        color: #ffffff;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 1.3em;
+        margin-bottom: 18px;
+    }
+    .slider-img {
+        height: auto !important;
+    }
+    .carousel-inner{
+        height: 450px !important;
+    }
+    .main-slider h5{
+        font-size: 15px;
+    }
+    .carousel-caption{
+        top: -27% !important;
+        text-align: left !important;
+    }
+    .slider-btn{
+        font-size: 16px !important;
+        padding: 10px 30px;
+    }
+    .text{
+        font-size: 13px !important;
+    }
+    .section-heading{
+        font-size: 25px !important;
+    }
+    .section-text{
+        font-size: 14px !important;
+    }
+    .about .content ul li{
+        font-size: 14px;
+    }
+
+    .theme-btn{
+        font-size: 14px !important;
+        padding: 10px 35px;
+    }
+    .section-title h3 {
+        margin: 15px 0 0 0;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .client img {
+         max-width: 100% !important; 
+    }
+    .steamingimg{
+margin-left: 0px !important;
+    }
+    .steaming .phone-number{
+        width: 100% !important;
+        left: 0% !important;
+    }
+    .navbar-mobile{
+        height: 400px !important;
+        background: rgb(62 180 1);
+    }
+    .main-footer .anim-icon .icon-3{
+        top: 75% !important;
+    }
+    .main-footer .anim-icon .icon-2{
+        right: 115px !important;
+        top: 270px !important;
+    }
+    .mobile-nav-toggle{
+        font-size: 30px;
+        color: #f5f7fa;
+        line-height: 1.5;
+}
+main-footer.style-two .widget_nav_menu ul li a {
+    color: #848484;
+    font-size: 14px;
+}
+.pestreels h4{
+    font-size: 14px !important;
+}
+  }
+
+  @media only screen and (min-width: 575px)and (max-width:768px)
+  {
+    #topbar {
+        background: #000;
+        height: 35px;
+        font-size: 14px;
+        transition: all 0.5s;
+        color: #fff;
+        padding: 0;
+    }
+    .headerlink-btn{
+        display: none !important;
+    }
+    .header-upper ul.contact-info li
+    {
+    position: relative;
+    padding-left: 28px;
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+    margin: 10px 0;
+    margin-right: 19px 
+    }
+    .header-upper ul.contact-info li i {
+        position: absolute;
+        top: 2px;
+        left: 0;
+        font-size: 19px;
+    }
+    .main-slider h2 {
+        position: relative;
+        color: #ffffff;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 1.3em;
+        margin-bottom: 18px;
+    }
+    .slider-img {
+        height: auto !important;
+    }
+    .carousel-inner{
+        height: 500px !important;
+    }
+    .carousel-caption{
+        top: -24% !important;
+    }
+    .client img {
+        max-width: 100% !important; 
+   }
+   .text{
+    font-size: 13px !important;
+}
+.section-heading{
+    font-size: 25px !important;
+}
+.section-text{
+    font-size: 14px !important;
+}
+.about .content ul li{
+    font-size: 14px;
+}
+
+   .steamingimg{
+margin-left: 0px !important;
+   }
+   .steaming .phone-number{
+       width: 100% !important;
+       left: 0% !important;
+   }
+   .navbar-mobile{
+       height: 400px !important;
+       background: rgb(62 180 1);
+   }
+   .main-footer .anim-icon .icon-3{
+       top: 75% !important;
+   }
+   .main-footer .anim-icon .icon-2{
+       right: 115px !important;
+       top: 270px !important;
+   }
+   .mobile-nav-toggle{
+       font-size: 30px;
+       color: #f5f7fa;
+       line-height: 1.5;
+}
+main-footer.style-two .widget_nav_menu ul li a {
+    color: #848484;
+    font-size: 14px;
+}
+.pestreels h4{
+    font-size: 14px !important;
+}
+  }
+  @media only screen and (min-width: 769px)and (max-width:991px)
+  {
+    #topbar {
+        background: #000;
+        height: 35px;
+        font-size: 16px;
+        transition: all 0.5s;
+        color: #fff;
+        padding: 0;
+    }
+    .headerlink-btn{
+        display: none !important;
+    }
+    .pestreels h4{
+        font-size: 16px !important;
+    }
+    .header-upper ul.contact-info li
+    {
+    position: relative;
+    padding-left: 28px;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    margin: 10px 0;
+    margin-right: 19px 
+    }
+    .header-upper ul.contact-info li i {
+        position: absolute;
+        top: 2px;
+        left: 0;
+        font-size: 20px;
+    }
+    .main-slider h2 {
+        position: relative;
+        color: #ffffff;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 1.3em;
+        margin-bottom: 18px;
+    }
+    .slider-img {
+        height: auto !important;
+    }
+    .carousel-inner{
+        height: 500px !important;
+    }
+    .carousel-caption{
+        top: -24% !important;
+    }
+    .client img {
+        max-width: 100% !important; 
+   }
+   .text{
+    font-size: 14px !important;
+}
+.section-heading{
+    font-size: 26px !important;
+}
+.section-text{
+    font-size: 16px !important;
+}
+.about .content ul li{
+    font-size: 16px;
+}
+
+   .steamingimg{
+margin-left: 0px !important;
+   }
+   .steaming .phone-number{
+       width: 100% !important;
+       left: 0% !important;
+   }
+   .navbar-mobile{
+       height: 400px !important;
+       background: rgb(62 180 1);
+   }
+ 
+   .mobile-nav-toggle{
+       font-size: 30px;
+       color: #f5f7fa;
+       line-height: 1.5;
+}
+main-footer.style-two .widget_nav_menu ul li a {
+    color: #848484;
+    font-size: 14px;
+}
+  }
+ @media only screen and (min-width: 1250px){
+    .steaming .phone-number{
+        top: 590% !important;
+    }
+  }
